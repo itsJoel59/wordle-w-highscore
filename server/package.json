@@ -1,11 +1,11 @@
 {
-  "name": "wordle-w-highscore",
+  "name": "server",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node ./server/index.js",
-    "dev": "nodemon ./server/index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,7 +13,9 @@
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^17.2.1",
-    "express": "^5.1.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
     "nodemon": "^3.1.10"
   }
 }
